@@ -1,0 +1,70 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 240px;
+  height: 100vh;
+  background-color: #d1d5db;
+  padding: 10px;
+}
+
+.header .addTaskButton {
+    padding: 20px;
+}
+
+.header {
+  font-size: 2rem;
+}
+
+.addTaskButton {
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.addForm {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  margin-top: 12px;
+  max-width: fit-content;
+
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+.addForm input {
+  padding: 10px 12px;
+  font-size: 14px;
+
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  outline: none;
+
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.addForm input:focus {
+  border-color: #3b82f6;
+}
+
+.addForm button {
+  padding: 10px 14px;
+  font-size: 14px;
+  font-weight: 500;
+  background: #3b82f6;
+  color: #fff;
+
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.addForm button:hover {
+  background-color: #2563eb;
+}
